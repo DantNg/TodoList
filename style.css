@@ -1,0 +1,298 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:#E5E5E5;
+}
+.list
+{
+    position: relative;
+    background: #fff;
+    width: 375px;  
+    height: 667px;
+}
+.list h2
+{
+    background: #03a9f4;
+    color: #fff;
+    padding: 24px 139px 76px;
+    font-weight: 400;
+    font-family: Roboto;
+}
+.list label input
+{
+    position: absolute;
+width: 250px;
+height: 40px;
+left: 12px;
+top: 65px;
+
+background: rgba(255, 255, 255, 0.22);
+border-radius: 50px 0px 0px 50px;
+}
+
+.list label button
+{
+    position: absolute;
+width: 100px;
+height: 40px;
+left: 262px;
+top: 65px;
+
+background: #FFFFFF;
+border-radius: 0px 50px 50px 0px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400l;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #3DA9FC;
+}
+#search
+{
+    width: 72.62px;
+height: 21px;
+left: 275.1px;
+top: 75px;
+}
+.list ul
+{
+    position: relative;
+    padding:20px ;
+}
+.list ul li
+{
+    position: relative;
+    list-style: none;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.list ul li label
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 20px ;
+}
+.list ul li label input
+{
+    visibility: hidden;
+    appearance: none;
+}
+
+.list ul li label p1
+{
+    position: absolute;
+    width: 197px;
+height: 23px;
+left: 97px;
+top: 22px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #094067;
+}
+.list ul li label small
+{
+    position: absolute;
+width: 225px;
+height: 24px;
+left: 97px;
+top: 54px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #5983A0;
+
+}
+.list ul li label span
+{
+    position: relative;
+    width: 59px;
+    height: 59px;
+    border: 1px solid #DADADA;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list ul li label span:before
+{
+    content : '';
+    position : absolute;
+    top  : 17px;
+    width: 25px;
+    height:10px;
+    border-left: 4px solid #fff;
+    border-bottom: 3px solid #fff;
+    transform: rotate(-45deg);
+}
+
+.list ul li label input:checked ~ span
+{
+    background: #03a9f4;
+}
+#buttonNew
+{
+    position: absolute;
+width: 60px;
+height: 60px;
+right: 13px;
+top: calc(50% - 60px/2 + 272.5px);
+
+background: #3DA9FC;
+box-shadow: 0px 4px 4px rgba(9, 64, 103, 0.47);
+border-radius: 50px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 48px;
+/* or 100% */
+
+text-align: center;
+color: #FFFFFF;
+
+}
+#header
+{
+    position: absolute;
+width: 375px;
+height: 77px;
+left: 0px;
+top: 0px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28.13px;
+text-align: center;
+
+color: #FFFFFF;
+background: #3DA9FC;
+}
+#Name
+{
+position: absolute;
+width: 100px;
+height: 22px;
+left: 17px;
+top: 100px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #094067;
+}
+#SearchBox
+{
+    position: absolute;
+width: 338px;
+height: 40px;
+left: 17px;
+top: 129px;
+
+background: #FFFFFF;
+border: 1px solid #094067;
+box-sizing: border-box;
+border-radius: 5px;
+}
+#DetailTextArea
+{
+    position: absolute;
+width: 338px;
+height: 229px;
+left: 17px;
+top: 239px;
+background: #FFFFFF;
+border: 1px solid #094067;
+box-sizing: border-box;
+border-radius: 5px;
+}
+#Details
+{
+    position: absolute;
+width: 100px;
+height: 22px;
+left: 17px;
+top: 202px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #094067;
+}
+#SaveBackground
+{
+    position: relative;
+    position: absolute;
+    width: 338px;
+    height: 60px;
+    left: 17px;
+    top: 503px;
+background: #3DA9FC;
+border-radius: 5px;
+}
+#saveEdit
+{
+    position: relative;
+width: 153px;
+height: 60px;
+left: 17px;
+top: 515px;
+
+background: #3DA9FC;
+border-radius: 5px;
+}
+#deleteEdit
+{
+    position: absolute;
+width: 153px;
+height: 60px;
+left: 204px;
+top: 515px;
+
+background: #EF4565;
+border-radius: 5px;
+}
+#backButton
+{
+    content : '';
+    position : absolute;
+    top  : 17px;
+    width: 25px;
+    height:10px;
+    border-left: 4px solid #fff;
+    border-bottom: 3px solid #fff;
+    transform: rotate(45deg);
+}
