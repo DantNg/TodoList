@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+    <style>
+        ::-webkit-input-placeholder
+        {
+            width: 100px;
+            height: 30px;
+            margin-top: 71px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="list">
+        <h2 style="font-weight: 400;">Todo List</h2>
+        <label>
+            <input type="text" placeholder="Search">
+            <button type="submit">
+                <span style="width: 72.62px;font-size: 18px;"> Search</span>
+            </button>
+        </label>
+        <hr style="padding-top:23px;">
+    
+        <ul>
+            <li>
+                <label>
+                    <input type="checkbox" name="">
+                    <span></span>
+                    <a href="Edit_Todo.html"><p1>Shopping</p1></a>
+                    <small>Milk,Eggs,Juice,...</small>
+                    
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="">
+                    <span></span>
+                    <a href="Edit_Todo.html"><p1>Work</p1></a>
+                    <small>Microsoft,Work,Excel,...</small>
+                </label>
+            </li>
+        </ul>
+        <a href="Create_to_do.html" target="_self">
+              <button type="submit" id="buttonNew" onclick=""> + </button>
+        </a>
+      
+    </div>
+
+</body>
+</html>
